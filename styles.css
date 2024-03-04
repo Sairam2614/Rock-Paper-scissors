@@ -1,0 +1,91 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #ffffff; /* White text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333333; /* Darker gray container background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Increased shadow */
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem; /* Increase font size */
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    color: #ffcc00; /* Yellow color for the heading */
+}
+
+
+.players {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.opponents {
+    text-align: center;
+}
+
+.opponents h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.opponents img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.versus {
+    font-size: 2rem;
+}
+
+#decision {
+    text-align: center;
+    background-color: #ffcc00;
+    color: #333333;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#decision:hover {
+    background-color: #ff9900;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.options img {
+    width: 120px;
+    height: auto;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.options img:hover {
+    transform: scale(1.1);
+}
+
